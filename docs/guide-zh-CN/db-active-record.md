@@ -10,7 +10,7 @@ Active Record 实例的*属性*表示该行中特定列的值。
 
 例如，假定 `Customer` Active Record 类关联着 `customer` 表，
 且该类的 `name` 属性代表 `customer` 表的 `name` 列。
-你可以写以下代码来哉 `customer` 表里插入一行新的记录:
+你可以写以下代码来在 `customer` 表里插入一行新的记录:
 
 ```php
 $customer = new Customer();
